@@ -1,7 +1,5 @@
 # Network-Security-Incident-Reports-and-Risk-Assessments - Cybersecurity Incident Reports and Risk Assessment
 
-# Conduct A Security Audit - Controls & Compliance Checklist
-
 ## Objective
 
 To analyze a real-world cybersecurity incident, specifically a Distributed Denial of Service (DDoS) attack, and apply the NIST Cybersecurity Framework to identify vulnerabilities, implement protective measures, and improve incident response capabilities. This project aims to enhance network security and minimize the impact of future cyber threats.
