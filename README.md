@@ -37,21 +37,21 @@ These incident report labs are designed to simulate real-world cybersecurity inc
 
 ## Steps
 Understanding the Scenario:
-1. Read the Prompt: You started by carefully reading the provided prompt for each report. This gave you context about the security incident, including symptoms, logs, and potentially affected systems.
+1. Read the Prompt: start by carefully reading the provided prompt for each report. This gave context about the security incident, including symptoms, logs, and potentially affected systems.
 
 Analysis and Interpretation:
 
-2. Identify the Problem: Based on the prompt, you had to identify the type of cyberattack that might be causing the issue. This involved analyzing symptoms (like connection timeouts) and log entries (like SYN flood or unreachable DNS server).
+2. Identify the Problem: Based on the prompt, identify the type of cyberattack that might be causing the issue. This involved analyzing symptoms (like connection timeouts) and log entries (like SYN flood or unreachable DNS server).
 
-3. Explain Technical Concepts: You then explained the technical details of the identified attack or security issue. For example, in Report 1, you explained the three-way handshake in TCP and how a SYN flood attack disrupts it.
+3. Explain Technical Concepts: explain the technical details of the identified attack or security issue. For example, in Report 1, the three-way handshake in TCP and how a SYN flood attack disrupts it.
 
-4. Draw Conclusions: By analyzing the provided information, you were able to draw conclusions about the root cause of the incident. For instance, in Report 2, you concluded that the unreachable DNS server could be due to a DoS attack, misconfiguration, or firewall blocking.
+4. Draw Conclusions: By analyzing the provided information, you are able to draw conclusions about the root cause of the incident. For instance, in Report 2, it was concluded that the unreachable DNS server could be due to a DoS attack, misconfiguration, or firewall blocking.
 
 Documentation and Recommendations:
 
-5. Document the Incident: You documented the incident details in a clear and concise manner. This included sections like customer reports, investigative steps, network traffic analysis, and source code analysis (in Report 3).
+5. Document the Incident: Document the incident details in a clear and concise manner. This included sections like customer reports, investigative steps, network traffic analysis, and source code analysis (in Report 3).
 
-6. Recommend Solutions:  Finally, you recommended appropriate security measures to address the identified vulnerabilities. This included suggestions like password policy changes, firewall rule updates, and implementing Multi-Factor Authentication (MFA).
+6. Recommend Solutions:  Finally, recommend appropriate security measures to address the identified vulnerabilities. This included suggestions like password policy changes, firewall rule updates, and implementing Multi-Factor Authentication (MFA).
 
 ## Materials Provided
 <a href="https://docs.google.com/document/d/1cuPXp7aDhehf9KP3VkbXoSyRjsJIHyfaUeS27iXJioc/edit?usp=sharing">Compiled Incident Reports</a><br>
