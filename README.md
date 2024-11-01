@@ -36,21 +36,24 @@ These incident report labs are designed to simulate real-world cybersecurity inc
 
 
 ## Steps
-**Incident Analysis:**
+Understanding the Scenario:
+1. Read the Prompt: You started by carefully reading the provided prompt for each report. This gave you context about the security incident, including symptoms, logs, and potentially affected systems.
 
-1. **Incident Identification:** The initial step involved recognizing the symptoms of a DDoS attack, such as a sudden loss of network connectivity and increased network traffic.
-2. **Data Collection:** Relevant data, such as network logs, firewall logs, and system logs, were collected to analyze the attack's nature and impact.
-3. **Root Cause Analysis:** The cybersecurity team investigated the root cause, which was identified as a misconfiguration in the firewall that allowed a flood of ICMP packets to overwhelm the network.
-4. **Impact Assessment:** The extent of the impact was assessed, including the duration of the outage, affected systems, and potential data loss.
+Analysis and Interpretation:
 
-**Security Improvements:**
-1. **Firewall Configuration:** Implemented a new firewall rule to limit the rate of incoming ICMP packets, preventing future floods.
-2. **Source IP Address Verification:** Configured the firewall to verify the source IP address of incoming packets to mitigate spoofing attacks.
-3. **Network Monitoring:** Deployed network monitoring tools to detect anomalies and unusual traffic patterns, enabling early detection of future attacks.
-4. **Intrusion Detection and Prevention Systems (IDS/IPS):** Implemented an IDS/IPS system to filter out malicious traffic and prevent future attacks.
-5. **Incident Response Plan:** Reviewed and updated the incident response plan to address lessons learned from the attack.
-6. **Employee Training:** Conducted security awareness training for employees to educate them about the risks of DDoS attacks and best practices for cybersecurity.
+2. Identify the Problem: Based on the prompt, you had to identify the type of cyberattack that might be causing the issue. This involved analyzing symptoms (like connection timeouts) and log entries (like SYN flood or unreachable DNS server).
+
+3. Explain Technical Concepts: You then explained the technical details of the identified attack or security issue. For example, in Report 1, you explained the three-way handshake in TCP and how a SYN flood attack disrupts it.
+
+4. Draw Conclusions: By analyzing the provided information, you were able to draw conclusions about the root cause of the incident. For instance, in Report 2, you concluded that the unreachable DNS server could be due to a DoS attack, misconfiguration, or firewall blocking.
+
+Documentation and Recommendations:
+
+5. Document the Incident: You documented the incident details in a clear and concise manner. This included sections like customer reports, investigative steps, network traffic analysis, and source code analysis (in Report 3).
+
+6. Recommend Solutions:  Finally, you recommended appropriate security measures to address the identified vulnerabilities. This included suggestions like password policy changes, firewall rule updates, and implementing Multi-Factor Authentication (MFA).
 
 ## Materials Provided
-<a href="https://docs.google.com/document/d/1kT9r2HSVHP9oEHAQAGIQNDzLNZ__1MYEU9HwcmatYh4/edit?usp=sharing">Incident report analysis</a><br>
-<a href="https://docs.google.com/document/d/1UXGnTPeBAFwRkiN7dQvqhWTEwj84_8vz/edit?usp=sharing&ouid=105064495821226407439&rtpof=true&sd=true">Applying the NIST CSF</a>
+<a href="https://docs.google.com/document/d/1cuPXp7aDhehf9KP3VkbXoSyRjsJIHyfaUeS27iXJioc/edit?usp=sharing">Compiled Incident Reports</a><br>
+<a href="https://docs.google.com/document/d/1znqlWLvP2PQP02rnBg51xvPj3sJ56RIq/edit?usp=sharing&ouid=105064495821226407439&rtpof=true&sd=true">How to read a Wireshark TCP/HTTP log</a><br>
+<a href="https://docs.google.com/document/d/12MxCtwetHOm_a8FEiKKOjjBQPtae-D5K/edit?usp=sharing&ouid=105064495821226407439&rtpof=true&sd=true">How to read the tcpdump traffic log</a>
