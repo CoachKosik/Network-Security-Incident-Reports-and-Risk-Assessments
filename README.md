@@ -2,25 +2,37 @@
 
 ## Objective
 
-To analyze a real-world cybersecurity incident, specifically a Distributed Denial of Service (DDoS) attack, and apply the NIST Cybersecurity Framework to identify vulnerabilities, implement protective measures, and improve incident response capabilities. This project aims to enhance network security and minimize the impact of future cyber threats.
+These incident report labs are designed to simulate real-world cybersecurity incidents, allowing the practice of critical thinking, problem-solving, and incident response skills.
 
 ### Skills Learned
 
-* **Incident Response:** Analyzing a security incident, identifying root causes, and implementing mitigation strategies.
-* **Network Security:** Understanding network protocols, firewall configuration, and network monitoring tools.
-* **Security Analysis:** Analyzing network logs and system logs to identify security threats.
-* **Problem-Solving:** Identifying and resolving security issues through a systematic approach.
-* **Technical Writing:** Clearly communicating technical information in written reports and documentation.
-* **Critical Thinking:** Evaluating information and making informed decisions.
-* **Attention to Detail:** Ensuring accuracy and thoroughness in analysis and reporting.
-* **NIST Cybersecurity Framework:** Applying the NIST CSF to improve organizational security posture.
+1. **Network Traffic Analysis:**
+   * Interpret network traffic logs, identifying protocols like TCP, UDP, HTTP, and ICMP.
+   * Recognize patterns in network traffic data, such as SYN floods or unreachable ports, to identify potential security incidents.
+   * Utilize tools like tcpdump to capture and analyze network traffic for investigation purposes.
+
+2. **Incident Response Procedures:**
+   * Understand the importance of identifying the type of cyberattack impacting a system.
+   * Explain the technical details of specific attacks, such as SYN floods and DNS server issues.
+   * Differentiate between different network protocols and their roles in security breaches.
+
+3. **Security Best Practices:**
+   * Identify security vulnerabilities, such as weak password policies or misconfigured firewalls.
+   * Recommend appropriate remediation strategies for identified vulnerabilities.
+   * Understand the importance of strong password policies, including password complexity, regular updates, and account lockout mechanisms.
+
+4. **Technical Communication:**
+   * Document technical information in a clear and concise manner for both technical and non-technical audiences.
+   * Explain complex cybersecurity concepts in an understandable way.
+   * Effectively structure incident reports, including sections for problem identification, analysis, and remediation.
+
+5. **Digital Forensics:**
+   * Familiar with collecting and preserving digital evidence for security investigations.
+   * Analyze network traffic logs and other digital artifacts to identify the root cause of an incident.
 
 ### Tools Used
-**Cybersecurity Frameworks and Standards:**
-
-* **NIST Cybersecurity Framework (CSF):** Used to guide the organization's cybersecurity efforts, including identify, protect, detect, respond, and recover functions.
-* **PCI DSS:** A set of security standards for organizations that handle credit card information.
-* **GDPR:** A European Union regulation on data protection and privacy.
+* **Log Analysis:** Examining logs from various sources like web servers, firewalls, and DNS servers can provide valuable insights into network activity and potential security incidents.
+* **Source Code Analysis:** Examining the source code of websites and applications can help identify vulnerabilities or malicious code injected by attackers.
 
 
 ## Steps
